@@ -5,7 +5,7 @@ import "./styles.css"
 
     const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(["Coding By Myown"]);
+    const [categories, setCategories] = useState(['Coding By Myown']);
 
     const onAddCategory = (newCategory) => {
         if (categories.includes(newCategory)) return; 
